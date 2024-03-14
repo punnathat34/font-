@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "kanit";
+    src: url("./Kanit/Kanit-Regular.ttf");
+  }
+  
+.user-list {
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #c42a2a;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-status {
+    color: #369b17;
+  }
+  
+  .user-actions {
+    float: right;
+  }
+  
+  .user-actions a {
+    margin-right: 10px;
+  }
+  

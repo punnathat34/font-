@@ -1,32 +1,57 @@
 @font-face {
-    font-family: "kanit";
-    src: url("./Kanit/Kanit-Regular.ttf");
+  font-family: "kanit";
+  src: url("./Kanit/Kanit-Regular.ttf");
+}
+
+body {
+  font-family: "kanit";
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(247, 188, 188);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.header {
+  font-size: 30px;
+  text-align: center;
+  background-color: #3cf5d6;
+}
+.edit {
+  background-color: #048804; /* สีเขียว */
+  color: #ffffff; /* สีขาว */
+  margin-bottom: 10px;
+}
+
+.delete {
+  background-color: #ff0000; /* สีแดง */
+  color: #070505; /* สีขาว */
+  margin-bottom: 10px;
+}
+
+.header-form {
+  width: 140px;
+}
+.flex {
+  display: flex;
+}
+.form-input {
+  margin-bottom: 10px;
+}
+.center {
+  text-align: center;
+}
+@media screen and (max-width: 768px){
+  .flex {
+    flex-direction: column;
   }
-  
-.user-list {
-    list-style: none;
-    padding: 20px;
-    margin: 10px;
+  .header{
+    font-size: 24px;
   }
-  
-  .user-list li {
-    padding: 10px;
-    border-bottom: 1px solid #c42a2a;
+  .button{
+      width: 100%;
   }
-  
-  .user-name {
-    font-weight: bold;
-  }
-  
-  .user-status {
-    color: #369b17;
-  }
-  
-  .user-actions {
-    float: right;
-  }
-  
-  .user-actions a {
-    margin-right: 10px;
-  }
-  
+}
